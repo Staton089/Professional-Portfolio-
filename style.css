@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #222831;
+  color: #eeeeee;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #222831;
+  gap: 53rem;
+}
+
+.header-title {
+  color: #eeeeee;
+}
+.main-content-grid{
+    width: 90%;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  color: #eeeeee;
+}
+
+.nav-links li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+.main-content {
+  padding: 20px;
+}
+
+.about-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 2.5rem;
+  
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.project-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 20rem);
+  gap: 15rem;
+  margin-top: 5rem;
+  justify-content: center; /* Center the content horizontally */
+}
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row: span 2;
+  margin-top: 15rem;
+
+}
+.project-item img {
+  width: 100%;
+}
+.box-shadow {
+    box-shadow: 0 0 10px rgba(118, 171, 174, 0.5); /* Adding box shadow with color #76ABAE */ /* horizontal-offset vertical-offset blur-radius color */
+    border-radius: 1rem;
+  }
+
+.section-contact {
+  text-align: center;
+}
+.contact-section{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    margin: auto; /* Center horizontally within the parent container */
+
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+img{
+    width: 20rem;
+}
+p{
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+h1{
+    padding: 1rem;
+}
+h2{
+    font-size: 3rem;
+    padding: 1rem;
+
+}
+
